@@ -1,0 +1,433 @@
+{
+    "1" : {
+        "id" : 1,
+        "name" : "Ролик с кнопкой (одно колесо)",
+        "cost" : 80,
+        "description" : "Ролики дверные для душевой кабины с кнопкой, одно колесо.",
+        "img" : "rolic1.jpg",
+        "category" : "roliki"
+    },
+    "2" : {
+        "id" : 2,
+        "name" : "Ролик без кнопки (одно колесо)",
+        "cost" : 80,
+        "description" : "Ролики дверные для душевой кабины без кнопкой, одно колесо. Серый, 19мм, 23мм, 25мм, 27мм",
+        "img" : "rolic6.jpg",
+        "category" : "roliki"
+    },
+    "3" : {
+        "id" : 3,
+        "name" : "Ролик с кнопкой (два колеса)",
+        "cost" : 110,
+        "description" : "Ролики дверные для душевой кабины с кнопкой, два колеса",
+        "img" : "rolic7.jpg",
+        "category" : "roliki"
+    },
+    "4" : {
+        "id" : 4,
+        "name" : "Ролик без кнопки (два колеса)",
+        "cost" : 110,
+        "description" : "Ролики дверные для душевой кабины без кнопки, два колеса",
+        "img" : "rolic2-bez-knopka.jpg",
+        "category" : "roliki"
+    },
+    "411" : {
+        "id" : 411,
+        "name" : "Ролик СУ 2",
+        "cost" : 110,
+        "description" : "для душевой кабины Серый 19мм, 23мм, 25мм, 27мм",
+        "img" : "rolic-CU3.jpg",
+        "category" : "roliki"
+    },
+    "412" : {
+        "id" : 412,
+        "name" : "Ролик СУ 3",
+        "cost" : 110,
+        "description" : "для душевой кабины Серый 19мм, 23мм, 25мм, 27мм",
+        "img" : "rolic-CU3.jpg",
+        "category" : "roliki"
+    },
+    "413" : {
+        "id" : 413,
+        "name" : "Ролик DC 1011",
+        "cost" : 110,
+        "description" : "для душевой кабины Серый 23мм, 25мм",
+        "img" : "rolic5.jpg",
+        "category" : "roliki"
+    },
+    "414" : {
+        "id" : 414,
+        "name" : "Ролик латунь",
+        "cost" : 110,
+        "description" : "для душевой кабины Латунь, 23мм",
+        "img" : "rolic-latun.png",
+        "category" : "roliki"
+    },
+    "415" : {
+        "id" : 415,
+        "name" : "Ролик овальный с кнопкой",
+        "cost" : 110,
+        "description" : "для душевой кабины Овальный, 23мм",
+        "img" : "rolic-oval-knopka.jpg",
+        "category" : "roliki"
+    },
+    "416" : {
+        "id" : 416,
+        "name" : "Ролик овальный юез кнопки",
+        "cost" : 110,
+        "description" : "для душевой кабины Овальный, 23мм",
+        "img" : "rolic-oval2.jpeg",
+        "category" : "roliki"
+    },
+    
+    "5" : {
+        "id" : 5,
+        "name" : "ФУМ лента газ малая",
+        "cost" : 15,
+        "description" : "Лента уплотнительная сантехническая для резьбы на газовых трубах",
+        "img" : "fum_little.jpg",
+        "category" : "fum"
+    },
+    "6" : {
+        "id" : 6,
+        "name" : "ФУМ лента вода малая",
+        "cost" : 15,
+        "description" : "Лента уплотнительная сантехническая для резьбы на водопроводных трубах",
+        "img" : "fum_little.jpg",
+        "category" : "fum"
+    },
+    "7" : {
+        "id" : 7,
+        "name" : "ФУМ лента газ большая",
+        "cost" : 25,
+        "description" : "Лента уплотнительная сантехническая для резьбы на газовых трубах",
+        "img" : "fum_big.jpg",
+        "category" : "fum"
+    },
+    "8" : {
+        "id" : 8,
+        "name" : "ФУМ лента вода большая",
+        "cost" : 25,
+        "description" : "Лента уплотнительная сантехническая для резьбы на водопроводных трубах",
+        "img" : "fum_big.jpg",
+        "category" : "fum"
+    },
+    "500" : {
+        "id" : 500,
+        "name" : "Лента фум русская № 1 узкая",
+        "cost" : 14,
+        "description" : "Лента уплотнительная сантехническая ширина 10мм, вес 6г",
+        "img" : "1_russia.png",
+        "category" : "fum"
+    },
+    "501" : {
+        "id" : 501,
+        "name" : "Лента фум русская № 2 широкая",
+        "cost" : 15,
+        "description" : "Лента уплотнительная сантехническая ширина 15мм, вес 10г",
+        "img" : "2_russia.png",
+        "category" : "fum"
+    },
+    "502" : {
+        "id" : 502,
+        "name" : "Лента фум русская № 3 узкая",
+        "cost" : 20,
+        "description" : "Лента уплотнительная сантехническая ширина 10мм",
+        "img" : "3_russia.png",
+        "category" : "fum"
+    },
+    "503" : {
+        "id" : 503,
+        "name" : "Лента фум русская № 4 широкая",
+        "cost" : 20,
+        "description" : "Лента уплотнительная сантехническая ширина 15мм",
+        "img" : "4_russia.png",
+        "category" : "fum"
+    },
+    "9" : {
+        "id" : 9, 
+        "name" : "Манжета переходная 50/20",
+        "cost" : 9,
+        "description" : "Манжета переходная 50х20 мм предназначена для соединения канализационных труб",
+        "img" : "50x20.jpg",
+        "category" : "rezina"
+    },
+    "10" : {
+        "id" : 10,
+        "name" : "Манжета переходная 50/25",
+        "cost" : 8,
+        "description" : "Манжета переходная предназначена для соединения канализационных труб",
+        "img" : "50x25.jpg",
+        "category" : "rezina"
+    },
+    "11" : {
+        "name" : "Манжета переходная 50/32",
+        "cost" : 8,
+        "description" : "Манжета переходная 50х32 мм предназначена для соединения канализационных труб",
+        "img" : "50x32.jpg",
+        "category" : "rezina"
+    },
+    "12" : {
+        "name" : "Манжета переходная 50/40",
+        "cost" : 8,
+        "description" : "Манжета переходная 50х40 мм предназначена для соединения канализационных труб",
+        "img" : "50x40.jpg",
+        "category" : "rezina"
+    },
+    "13" : {
+        "name" : "Прокладка на алюминиевый бидон резина 10 литров",
+        "cost" : 90,
+        "description" : "Резиновая прокладка для крышки молочной алюминиевой фляги",
+        "img" : "10_bidon.webp",
+        "category" : "bidon"
+    },
+    "14" : {
+        "name" : "Прокладка на алюминиевый бидон резина 25 литров",
+        "cost" : 90,
+        "description" : "Резиновая прокладка для крышки молочной алюминиевой фляги",
+        "img" : "25_bidon_plockaya.jpg",
+        "category" : "bidon"
+    },
+    "15" : {
+        "name" : "Прокладка на алюм бидон полукруглая 25 литров",
+        "cost" : 90,
+        "description" : "Резиновая прокладка для крышки молочной алюминиевой фляги",
+        "img" : "25_bidon_plockaya.jpg",
+        "category" : "bidon"
+    },
+    "16" : {
+        "name" : "Прокладка на алюм бидон полукруглая 40 литров",
+        "cost" : 100,
+        "description" : "Резиновая прокладка для крышки молочной алюминиевой фляги",
+        "img" : "40_bidon.webp",
+        "category" : "bidon"
+    },
+    "17" : {
+        "name" : "Паста Унипак + лен 25гр",
+        "cost" : 60,
+        "description" : "для герметизации резьбовых соединений",
+        "img" : "unipak25.jpg",
+        "category" : "smazka"
+    },
+    "18" : {
+        "name" : "Паста Унипак 75гр",
+        "cost" : 90,
+        "description" : "для герметизации резьбовых соединений",
+        "img" : "unipak75.jpg",
+        "category" : "smazka"
+    },
+    "19" : {
+        "name" : "Паста Унипак 250гр",
+        "cost" : 220,
+        "description" : "для герметизации резьбовых соединений",
+        "img" : "unipak250.png",
+        "category" : "smazka"
+    },
+    "20" : {
+        "name" : "Смазка для канализации Sinicon",
+        "cost" : 150,
+        "description" : "для герметизации резьбовых соединений",
+        "img" : "sinicon.jpg",
+        "category" : "smazka"
+    },
+
+    "21" : {
+        "name" : "Хомут ремонтный 1/2 (Ø15)",
+        "cost" : 50,
+        "description" : "Хомут ремонтный оцинкованный на 3 болта",
+        "img" : "20_homut.png",
+        "category" : "homuty"
+    },
+    "22" : {
+        "name" : "Хомут ремонтный 3/4 (Ø20)",
+        "cost" : 50,
+        "description" : "Хомут ремонтный оцинкованный на 3 болта",
+        "img" : "20_homut.png",
+        "category" : "homuty"
+    },
+    "23" : {
+        "name" : "Хомут ремонтный 1 дюйм (Ø25)",
+        "cost" : 50,
+        "description" : "Хомут ремонтный оцинкованный на 3 болта",
+        "img" : "20_homut.png",
+        "category" : "homuty"
+    },
+    "24" : {
+        "name" : "Хомут ремонтный 1 дюйм 1/4 (Ø32)",
+        "cost" : 60,
+        "description" : "Хомут ремонтный оцинкованный на 3 болта",
+        "img" : "32_homut.png",
+        "category" : "homuty"
+    },
+    "25" : {
+        "name" : "Крепление крышки унитаза Универсальное",
+        "cost" : 60,
+        "description" : "Крепление крышки унитаза",
+        "img" : "universal.png",
+        "category" : "krepezh"
+    },
+    "26" : {
+        "name" : "Крепление крышки унитаза СУ 1",
+        "cost" : 150,
+        "description" : "Крепление крышки унитаза",
+        "img" : "cu1.jpg",
+        "category" : "krepezh"
+    },
+    "27" : {
+        "name" : "Крепление крышки унитаза СУ 3",
+        "cost" : 150,
+        "description" : "Крепление крышки унитаза",
+        "img" : "cu3.jpg",
+        "category" : "krepezh"
+    },
+    "28" : {
+        "name" : "Крепление крышки унитаза квадрат с планкой",
+        "cost" : 60,
+        "description" : "Крепление крышки унитаза",
+        "img" : "kvadrat_planka.png",
+        "category" : "krepezh"
+    },
+    "29" : {
+        "name" : "Прокладки паронит  1/4",
+        "cost" : 150,
+        "description" : "Цена указана за 100 штук",
+        "img" : "1.4.jpg",
+        "category" : "paronit"
+    },
+    "30" : {
+        "name" : "Прокладки паронит  3/8",
+        "cost" : 150,
+        "description" : "Цена указана за 100 штук",
+        "img" : "3.8.jpg",
+        "category" : "paronit"
+    },
+    "31" : {
+        "name" : "Прокладки паронит  1/2",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "15.jpg",
+        "category" : "paronit"
+    },
+    "32" : {
+        "name" : "Прокладки паронит  3/4",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "20.jpg",
+        "category" : "paronit"
+    },
+    "33" : {
+        "name" : "Прокладки резиновые 3/8",
+        "cost" : 150,
+        "description" : "Цена указана за 100 штук",
+        "img" : "3.8_rez.jpg",
+        "category" : "procladki_rezina"
+    },
+    "34" : {
+        "name" : "Прокладки резиновые 3/2",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "15_rez.jpg",
+        "category" : "procladki_rezina"
+    },
+    "35" : {
+        "name" : "Прокладки резиновые 3/4",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "20_rez.jpg",
+        "category" : "procladki_rezina"
+    },
+    "36" : {
+        "name" : "Прокладки резиновые 1 дюйм",
+        "cost" : 200,
+        "description" : "Цена указана за 100 штук",
+        "img" : "25_rez.jpg",
+        "category" : "procladki_rezina"
+    },
+     "37" : {
+        "name" : "Прокладки силикон 1/2",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "15_silicon.jpg",
+        "category" : "silikon"
+    },
+    "38" : {
+        "name" : "Прокладки силикон 3/4",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "20_silicon.jpg",
+        "category" : "silikon"
+    },
+    "39" : {
+        "name" : "Прокладки силикон 1 дюйм",
+        "cost" : 200,
+        "description" : "Цена указана за 100 штук",
+        "img" : "25_silicon.jpeg",
+        "category" : "silikon"
+    },
+    "40" : {
+        "name" : "Прокладки силикон 1 дюйм 1/4 на алюминевый радиатор",
+        "cost" : 300,
+        "description" : "Цена указана за 100 штук",
+        "img" : "32_silicon.jpg",
+        "category" : "silikon"
+    },
+    "41" : {
+        "name" : "Кольцо на Американку Ø 15",
+        "cost" : 300,
+        "description" : "Цена указана за 100 штук",
+        "img" : "15_amerikanka.jpg",
+        "category" : "amerikanka"
+    },
+    "42" : {
+        "name" : "Кольцо на Американку Ø 20",
+        "cost" : 300,
+        "description" : "Цена указана за 100 штук",
+        "img" : "20_amerikanka.jpg",
+        "category" : "amerikanka"
+    },
+    "43" : {
+        "name" : "Кольцо на Американку Ø 25",
+        "cost" : 500,
+        "description" : "Цена указана за 100 штук",
+        "img" : "25_amerikanka.jpg",
+        "category" : "amerikanka"
+    },
+    "44" : {
+        "name" : "Кольцо на Американку Ø 32",
+        "cost" : 600,
+        "description" : "Цена указана за 100 штук",
+        "img" : "32_amerikanka.jpg",
+        "category" : "amerikanka"
+    },
+    "45" : {
+        "name" : "Кольцо на гусак Россиия",
+        "cost" : 150,
+        "description" : "Цена указана за 100 штук",
+        "img" : "gusak.png",
+        "category" : "procladki_smesitel"
+    },
+    "46" : {
+        "name" : "Кольцо на гусак импорт",
+        "cost" : 150,
+        "description" : "Цена указана за 100 штук",
+        "img" : "noimage.jpg",
+        "category" : "procladki_smesitel"
+    },
+    "47" : {
+        "name" : "Кольцо на гусак плоское",
+        "cost" : 100,
+        "description" : "Цена указана за 100 штук",
+        "img" : "noimage.jpg",
+        "category" : "procladki_smesitel"
+    },
+    "48" : {
+        "name" : "Ремкомплект на смеситель керамика Россия",
+        "cost" : 135,
+        "description" : "Цена указана за 10 штук",
+        "img" : "noimage.jpg",
+        "category" : "procladki_smesitel"
+    }
+
+
+}
+
