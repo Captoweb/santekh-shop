@@ -234,7 +234,7 @@ hr {
 
 .card {
     max-width: 340px;
-    min-width: 290px;
+    min-width: 320px;
     height: 500px;
     padding: 16px;
     padding-bottom: 20px;
@@ -281,7 +281,9 @@ hr {
     font-size: 21px;
     margin-bottom: 10px;
     color: #222;
-    /* text-align: center; */
+    max-width: 280px;
+    max-height: 53px;
+    overflow: hidden;
   }
 
 .card .cost {
@@ -303,6 +305,10 @@ hr {
 .card .description {
     margin-bottom: 10px;
     line-height: 1.5;
+    max-height: 70px;
+    min-height: 55px;
+    max-width: 280px;
+    overflow: hidden;
 }
 
 /* .add-to-cart {
@@ -424,8 +430,8 @@ button.plus-goods, button.minus-goods {
 
    /* footer  */
 
-   .footer_wrapper {
-    background-color: #e4e4e4;
+.footer_wrapper {
+    background-color: #cacaca;
     border-top: 4px solid #6f42c1;
     padding: 0;
     padding-top: 20px;
@@ -458,4 +464,24 @@ footer .footer_top ul li:first-child {
 
 button.buttonGray {
     background-color: #858282;
+}
+
+.bottom-navigation {
+    background: #fff;
+    border-top: 2px solid #adadad;
+ 
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-menu_icon {
+    height: 30px;
+    width: auto;
 }

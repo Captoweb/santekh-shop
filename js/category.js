@@ -134,3 +134,19 @@ function Proverka(data) {
           // если data-id кнопки == id корзины - то добавляю кнопке класс и button.innerHTML = 'В корзине';
            
 }
+
+
+let navDiv = document.querySelector('.bottom-nav__div')
+
+let out = ''
+
+out += `<div class="bottom-navigation">`
+out += `<a href="http://web1.fun.test/"><img class="bottom-menu_icon" src="icons/home-8.svg" alt="nav"></a>`
+//out += `<a href="#"><img class="bottom-menu_icon" src="icons/menu-1.svg" alt="nav"></a>`
+out += `<a href="#"><img class="bottom-menu_icon" src="icons/phone-1.svg" alt="nav"></a>`
+out += `<a href="http://web1.fun.test/cart"><img class="bottom-menu_icon" src="icons/shopping-cart-25.svg" alt="nav"></a>`
+//out += `<\div>`
+
+if (window.innerWidth <= 768) {
+    navDiv.innerHTML = out
+}
