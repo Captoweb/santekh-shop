@@ -1,8 +1,9 @@
 <div class="footer_wrapper">
     <div class="container">    
         <footer class="footer">
-           <div class="footer_top">
-            <ul>
+
+            <div class="footer_top">
+                <ul>
                     <li>Контакты</li>
                     <li><a href="tel:+79514946767">8 951 494 67 67</a>&nbsp;&nbsp;&nbsp;<a href="https://t.me/+79514946767"><img src="../telegram-icon.png" style="position: relative;top: 10px;" /></a></li>
                     <li>olegkandasov@gmail.com</li>
@@ -19,11 +20,12 @@
                     <li>Политика конфиденциальности</li>
                 </ul>
             </div>
+            
             <div class="footer_border"></div>
             <div class="footer_bottom">© 1998–2024 ИП Кандашов</div>
         </footer>
-        
     </div>
+    <div class="bottom-nav__div"></div>
 </div>    
 
     <script src="js/jquery-3.7.0.min.js"></script>

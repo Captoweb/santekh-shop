@@ -8,4 +8,3 @@
         <ul class="out"></ul>
     </main>
 </div>
-<div class="bottom-nav__div"></div>

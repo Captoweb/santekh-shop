@@ -18,6 +18,11 @@ body {
     position: relative;
     top: 2px;
 }
+
+.nav-tel  {
+    color: #222;
+}
+
 .nav_top-items {
     display: flex;
     justify-content: space-between;
@@ -432,7 +437,7 @@ button.plus-goods, button.minus-goods {
 
 .footer_wrapper {
     background-color: #cacaca;
-    border-top: 4px solid #6f42c1;
+    /* border-top: 4px solid #6f42c1; */
     padding: 0;
     padding-top: 20px;
     margin: 0px;
@@ -482,6 +487,7 @@ button.buttonGray {
 }
 
 .bottom-menu_icon {
-    height: 30px;
+    height: 28px;
     width: auto;
 }
+

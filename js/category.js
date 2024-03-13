@@ -117,11 +117,11 @@ function Proverka(data) {
           
            let btnNodelist = document.querySelectorAll('.add-to-cart');
            let btn = Array.from(btnNodelist);
-          console.log(btnNodelist); // пустой 
-          console.log(btn[0].getAttribute('data-id')); // 1
+          //console.log(btnNodelist); // пустой 
+          //console.log(btn[0].getAttribute('data-id')); // 1
 
           for (let i = 0; i < btn.length; i++) {
-            console.log(btn[i].getAttribute('data-id')); // получаю data-id у всех кнопок
+            //console.log(btn[i].getAttribute('data-id')); // получаю data-id у всех кнопок
             for (let cardId in corzinaArr) {
                 //console.log('id:', id); // id
                 if (cardId == btn[i].getAttribute('data-id')) {
@@ -141,12 +141,21 @@ let navDiv = document.querySelector('.bottom-nav__div')
 let out = ''
 
 out += `<div class="bottom-navigation">`
-out += `<a href="http://web1.fun.test/"><img class="bottom-menu_icon" src="icons/home-8.svg" alt="nav"></a>`
-//out += `<a href="#"><img class="bottom-menu_icon" src="icons/menu-1.svg" alt="nav"></a>`
-out += `<a href="#"><img class="bottom-menu_icon" src="icons/phone-1.svg" alt="nav"></a>`
-out += `<a href="http://web1.fun.test/cart"><img class="bottom-menu_icon" src="icons/shopping-cart-25.svg" alt="nav"></a>`
+    out += `<a href="/"><img class="bottom-menu_icon" src="icons/home-8.svg" alt="nav"></a>`
+    out += `<a href="mailto:olegkandasov@gmail.com"><img class="bottom-menu_icon" src="icons/email-3.svg" alt="nav"></a>`
+    out += `<a href="https://t.me/+79514946767"><img class="bottom-menu_icon" src="icons/telegram-4.svg" alt="nav"></a>`
+    out += `<a href="cart"><img class="bottom-menu_icon" src="icons/shopping-cart-25.svg" alt="nav"></a>`
 //out += `<\div>`
 
-if (window.innerWidth <= 768) {
-    navDiv.innerHTML = out
+
+function bottomNavigation() {
+    //console.log(pageYOffset)
+    if (window.innerWidth <= 768 && pageYOffset >= 300) {
+        navDiv.innerHTML = out
+    }
+    if (pageYOffset < 300) {
+        navDiv.innerHTML = ''
+    }
 }
+
+window.addEventListener('scroll', bottomNavigation)

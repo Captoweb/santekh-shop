@@ -54,6 +54,10 @@
     .nav_top-items li:last-child {
         display: none;
     }
+
+    footer .footer_top {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {

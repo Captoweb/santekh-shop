@@ -32,7 +32,7 @@
         <div class="container">
             <ul class="nav_top-items">
                 <li><img class="nav__top-icon" src="images/geo-alt.svg">Ростов-на-Дону</li>
-                <li><img class="nav__top-icon" src="images/telephone.svg"><a href="tel:+79514946767">+7 951 494 67 67</a></li>
+                <li><img class="nav__top-icon" src="images/telephone.svg"><a class="nav-tel" href="tel:+79514946767">+7 951 494 67 67</a></li>
                 <li><img class="nav__top-icon" src="images/mail2.svg">olegkandasov@gmail.com</li>
             </ul>
         </div>
