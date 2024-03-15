@@ -1,10 +1,10 @@
 <div class="container cart-container">
     <main>
-        <h2>Корзина</h2>
+        <h2 class="cart-title">Корзина</h2>
         <div class="main-cart"></div>
         <div class="total-amount"></div>
         
-        <h2>Заказать</h2>
+        <h3 class="cart-order">Оформить заказ</h3>
         <div class="email-field">
             <p>Имя: <input type="text" id="ename"></p>
             <p>Email: <input type="text" id="email"></p>

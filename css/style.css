@@ -163,6 +163,11 @@ nav.nav a:hover {
     margin-bottom: 20px;
     color: #161616;
     font-size: 16px;
+    font-weight: 700;
+}
+
+.mini-cart h5 {
+    font-weight: 700;
 }
 
 .img-mini {
@@ -316,17 +321,18 @@ hr {
     overflow: hidden;
 }
 
-/* .add-to-cart {
-    background: #ccc;
-    cursor: pointer;
+.add-to-cart {
+    background: #f38a00;
+    border: 0.1rem solid #f38a00;
 }
 
 .add-to-cart:hover {
-    background: #222;
-} */
+    /* background: #f7910d;
+    border: 0.1rem solid #f7910d; */
+}
 
 .add-to-cart:active {
-    background: #4a106d;
+    background: #f38a00;
 }
 
 .main-cart {
@@ -432,6 +438,16 @@ button.plus-goods, button.minus-goods {
 .email-field input {
     font-size: 1.1em;
 }
+.send-email {
+    background: #f38a00;
+    border: 0.1rem solid #f38a00;
+}
+
+.send-email:hover {
+    /* background: #f7910d;
+    border: 0.1rem solid #f7910d; */
+}
+
 
    /* footer  */
 
@@ -448,6 +464,15 @@ footer .footer_top {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.footer-home_text a {
+    color: #3A3A44;
+}
+
+.footer-home_text img {
+    position: relative;
+    top: 2px;
 }
 
 footer .footer_top ul li {
@@ -489,5 +514,6 @@ button.buttonGray {
 .bottom-menu_icon {
     height: 28px;
     width: auto;
+    margin-top: 5px;
 }
 

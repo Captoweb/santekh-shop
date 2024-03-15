@@ -4,15 +4,16 @@
 
             <div class="footer_top">
                 <ul>
+                    <li class="footer-home_text"><a href="#"><img src="../../icons/home-8-orange.svg" alt="">&nbsp;Главная</a></li>
                     <li>Контакты</li>
                     <li><a href="tel:+79514946767">8 951 494 67 67</a>&nbsp;&nbsp;&nbsp;<a href="https://t.me/+79514946767"><img src="../telegram-icon.png" style="position: relative;top: 10px;" /></a></li>
                     <li>olegkandasov@gmail.com</li>
-                    <li>г. Ростов-на-Дону Лесополоса №1</li>
                 </ul>
                 <ul>
                     <li>Доставка</li>
                     <li>Доставка по городу</li>
                     <li>Самовывоз</li>
+                    <li>г. Ростов-на-Дону Лесополоса №1</li>
                 </ul>
                 <ul>
                     <li>Клиентам</li>

@@ -58,6 +58,26 @@
     footer .footer_top {
         display: none;
     }
+
+    .email-field {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cart-title {
+        text-align: center;
+    }
+
+    .cart-order {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-cart {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {

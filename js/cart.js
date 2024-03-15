@@ -8,7 +8,7 @@ function loadCart() {
             showCart();    
     }
     else {
-        $('.main-cart').html("<h4>Корзина пуста</h4>");
+        $('.main-cart').html("<h4 style='color:#842029; background:#f8d7da; padding:16px;border-radius:5px'>Корзина пуста</h4>");
         
     }
 }
